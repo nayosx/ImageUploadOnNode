@@ -1,0 +1,34 @@
+{
+  "name": "imageuploadonnode",
+  "version": "1.0.0",
+  "description": "simple projet to upload images base64 with save via node ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nayosx/ImageUploadOnNode.git"
+  },
+  "keywords": [
+    "node",
+    "images",
+    "base64",
+    "upload"
+  ],
+  "author": "NayosX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nayosx/ImageUploadOnNode/issues"
+  },
+  "homepage": "https://github.com/nayosx/ImageUploadOnNode#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
