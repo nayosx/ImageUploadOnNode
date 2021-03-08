@@ -34,4 +34,4 @@ app.get('/', (req, res) => {
 // Listen server on http://{your ip}:3000
 app.listen(port, '0.0.0.0', () => {
     console.log(`App listening port ${port}`);
-})
+});
